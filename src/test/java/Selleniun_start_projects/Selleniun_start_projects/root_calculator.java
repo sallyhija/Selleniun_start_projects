@@ -14,7 +14,7 @@ public class root_calculator {
 	@Before
 	  public void setup() {
 		 
-			  System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.34.0-win32\\geckodriver.exe");
+			  System.setProperty("webdriver.gecko.driver","C:\\Users\\sally\\Downloads\\geckodriver-v0.35.0-win32\\geckodriver.exe");
 		      browser = new FirefoxDriver();
 		  	  browser.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 			  String url="https://www.mathportal.org/calculators/polynomials-solvers/polynomial-roots-calculator.php";
